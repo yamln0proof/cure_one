@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     const String appTitle = "Cure One";
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: appTitle,
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
       //home: const MyHomePage(title: appTitle),
