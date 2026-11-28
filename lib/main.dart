@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:cure_one/home/welcome_animation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: appTitle,
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
       //home: const MyHomePage(title: appTitle),
-      home: TitleSection(name: 'Nabil', location: 'Bangladesh'),
+      home: WelcomeAnimation()
     );
   }
 }
